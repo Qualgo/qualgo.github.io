@@ -1,6 +1,6 @@
 baseURL = "https://qualgo.github.io"
 languageCode = "en-us"
-title = "Hugo Fresh Theme"
+title = "Qualgo"
 theme = "company"
 disableKinds = [ "taxonomy", "taxonomyTerm" ]
 
