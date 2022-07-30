@@ -1,4 +1,4 @@
-baseURL = "http://qualgo.io/"
+baseURL = "https://qualgo.github.io"
 languageCode = "en-us"
 title = "Hugo Fresh Theme"
 theme = "hugo-fresh"
