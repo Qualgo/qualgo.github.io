@@ -21,7 +21,7 @@ sizes = [ 400, 600 ]
 
 [params.hero]
 title = "Manage. Deploy."
-subtitle = "Lorem ipsum sit dolor amet is dummy text used by the typography industry"
+subtitle = "Lorem ipsum sit dolor test amet is dummy text used by the typography industry"
 buttontext = "Get started"
 buttonlink = "#"
 image = "illustrations/worker.svg"
