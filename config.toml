@@ -12,7 +12,8 @@ openGraph = true
 section5 = true
 
 [params.navbarlogo]
-image = "logos/fresh.svg"
+image = "logos/qualgo.png"
+width = 91.81
 link = "/"
 
 [params.font]
