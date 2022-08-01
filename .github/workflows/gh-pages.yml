@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - master  # Set a branch to deploy
+      - css-fix
   pull_request:
 
 jobs:
