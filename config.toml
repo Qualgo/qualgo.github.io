@@ -13,27 +13,26 @@ openGraph = true
 [params.navbarlogo]
 image = "logos/qualgo.png"
 width = 91.81
-link = "/"
+link = "/#"
 
 [params.font]
 name = "Open Sans"
 sizes = [ 400, 600 ]
 
 [params.hero]
-title = "Manage. Deploy."
-subtitle = "Lorem ipsum sit dolor test amet is dummy text used by the typography industry"
-buttontext = "Get started"
-buttonlink = "#"
-image = "illustrations/worker.svg"
-clientlogos = [ "systek", "tribe", "kromo", "infinite", "gutwork" ]
-
-[[params.navbar]]
-title = "Our Services"
-url = "/#services"
+title = "Quality you can depend on"
+subtitle = "At Qualgo we take full responsibility in delivering quality applications with every line of code that is committed and deployed."
+buttontext = "Our Mission"
+buttonlink = "#mission"
+image = "illustrations/programmer.png"
 
 [[params.navbar]]
 title = "Our Mission"
 url = "/#mission"
+
+[[params.navbar]]
+title = "Our Services"
+url = "/#services"
 
 [[params.navbar]]
 title = "About us"
@@ -54,20 +53,6 @@ text = "This is some explanatory text that is on two rows"
 url = "/"
 buttonText = "Free trial"
 
-[[params.section1.tiles]]
-title = "Cloud integration"
-icon = "laptop-cloud"
-text = "This is some explanatory text that is on two rows"
-url = "/"
-buttonText = "Get started"
-
-[[params.section1.tiles]]
-title = "Add-ons & plugins"
-icon = "plug-cloud"
-text = "This is some explanatory text that is on two rows"
-url = "/"
-buttonText = "Get started"
-
 [params.section2]
 title = "Our Mission"
 subtitle = "You're here because you want the best and we know it"
@@ -86,6 +71,20 @@ icon = "doc-sync"
 title = "Nomad system"
 text = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis."
 icon = "mobile-feed"
+
+[[params.section1.tiles]]
+title = "Cloud integration"
+icon = "laptop-cloud"
+text = "This is some explanatory text that is on two rows"
+url = "/"
+buttonText = "Get started"
+
+[[params.section1.tiles]]
+title = "Add-ons & plugins"
+icon = "plug-cloud"
+text = "This is some explanatory text that is on two rows"
+url = "/"
+buttonText = "Get started"
 
 [params.section4]
 title = "About us"
