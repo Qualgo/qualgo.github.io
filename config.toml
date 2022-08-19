@@ -13,27 +13,26 @@ openGraph = true
 [params.navbarlogo]
 image = "logos/qualgo.png"
 width = 91.81
-link = "/"
+link = "/#"
 
 [params.font]
 name = "Open Sans"
 sizes = [ 400, 600 ]
 
 [params.hero]
-title = "Manage. Deploy."
-subtitle = "Lorem ipsum sit dolor test amet is dummy text used by the typography industry"
-buttontext = "Get started"
-buttonlink = "#"
-image = "illustrations/worker.svg"
-clientlogos = [ "systek", "tribe", "kromo", "infinite", "gutwork" ]
+title = "Quality you can depend on"
+subtitle = "At Qualgo we take full responsibility in delivering quality applications with every line of code that is committed and deployed."
+buttontext = "Our Mission"
+buttonlink = "#section_mission"
+image = "illustrations/icons/startup.svg"
+
+[[params.navbar]]
+title = "Our Mission"
+url = "/#section_mission"
 
 [[params.navbar]]
 title = "Our Services"
 url = "/#services"
-
-[[params.navbar]]
-title = "Our Mission"
-url = "/#mission"
 
 [[params.navbar]]
 title = "About us"
@@ -43,73 +42,78 @@ url = "/#about-us"
 title = "Contact us"
 url = "/#contact-us"
 
-[params.section1]
+[params.section_mission]
+title = "Our Mission"
+subtitle = "Quality Algorithms"
+
+[[params.section_mission.features]]
+title = "Building better technology always wins"
+text = "We founded the company on one simple premise: “building better technology always wins and cutting-corners always loses”. In order to be successful, customer expectations must be delivered without ever compromising on high quality standards."
+icon = "team-coding"
+
+[[params.section_mission.features]]
+title = "Delivering on customer expectations"
+text = "High quality implies that our code is well tested and bug free, respects web development standards (W3C Standards), respects web security standards (NIST), is able to scale to serve millions of users, is deployed in a cost-effective manner that aims to maximize customer profits, and ultimately delivers on customer expectations."
+icon = "developer-desk"
+
+[[params.section_mission.features]]
+title = "Agile Methodology"
+text = "We believe that client feedback is crucial in delivering an impeccable product. We aim to engage our client throughout the product lifecycle. We work in sprints and follow an agile methodology consisting of 5 sequential phases: <li>Project Initiation</li><li>Requirements Gathering and System Design</li><li>Development</li><li>Quality Assurance and Testing</li><li>Deployment and Support</li>"
+icon = "project-timeline"
+
+[[params.section_mission.features]]
+title = "Qualgo"
+text = "<b>Qu</b>ality <b>Algo</b>rithms you can depend on: we take full responsibility in <i>delivering quality applications with every line of code that is committed and deployed</i>."
+icon = "product-launch"
+
+[params.section_services]
 title = "Our Services"
 subtitle = "With great power comes great responsibility"
 
-[[params.section1.tiles]]
+[[params.section_services.tiles]]
 title = "App builder"
 icon = "mouse-globe"
 text = "This is some explanatory text that is on two rows"
 url = "/"
 buttonText = "Free trial"
 
-[[params.section1.tiles]]
+[[params.section_services.tiles]]
 title = "Cloud integration"
 icon = "laptop-cloud"
 text = "This is some explanatory text that is on two rows"
 url = "/"
 buttonText = "Get started"
 
-[[params.section1.tiles]]
+[[params.section_services.tiles]]
 title = "Add-ons & plugins"
 icon = "plug-cloud"
 text = "This is some explanatory text that is on two rows"
 url = "/"
 buttonText = "Get started"
 
-[params.section2]
-title = "Our Mission"
-subtitle = "You're here because you want the best and we know it"
-
-[[params.section2.features]]
-title = "Powerful and unified interface"
-text = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis."
-icon = "laptop-globe"
-
-[[params.section2.features]]
-title = "Cross-device synchronisation"
-text = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis."
-icon = "doc-sync"
-
-[[params.section2.features]]
-title = "Nomad system"
-text = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis."
-icon = "mobile-feed"
-
-[params.section4]
+[params.section_about_us]
 title = "About us"
 subtitle = "Lorem ipsum sit dolor amet is a dummy text used by typography industry"
 
-[[params.section4.clients]]
+[[params.section_about_us.clients]]
 name = "Irma Walters"
 quote = "Lorem ipsum dolor sit amet, elit deleniti dissentias quo eu, hinc minim appetere te usu, ea case duis scribentur has. Duo te consequat elaboraret, has quando suavitate at."
 job = "Accountant"
 img = 1
 
-[[params.section4.clients]]
+[[params.section_about_us.clients]]
 name = "John Bradley"
 quote = "Lorem ipsum dolor sit amet, elit deleniti dissentias quo eu, hinc minim appetere te usu, ea case duis scribentur has. Duo te consequat elaboraret, has quando suavitate at."
 job = "Financial Analyst"
 img = 2
 
-[[params.section4.clients]]
+[[params.section_about_us.clients]]
 name = "Gary Blackman"
 quote = "Lorem ipsum dolor sit amet, elit deleniti dissentias quo eu, hinc minim appetere te usu, ea case duis scribentur has. Duo te consequat elaboraret, has quando suavitate at."
 job = "HR Manager"
 img = 3
 
-[params.section5]
+[params.section_contact_us]
 title = "Contact us"
 subtitle = "We'd love to hear from you"
 
