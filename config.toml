@@ -31,12 +31,12 @@ title = "Our Mission"
 url = "/#section_mission"
 
 [[params.navbar]]
-title = "Our Services"
-url = "/#services"
-
-[[params.navbar]]
 title = "About us"
 url = "/#about-us"
+
+[[params.navbar]]
+title = "Our Services"
+url = "/#services"
 
 [[params.navbar]]
 title = "Contact us"
@@ -48,7 +48,7 @@ subtitle = "Quality Algorithms"
 
 [[params.section_mission.features]]
 title = "Building better technology always wins"
-text = "We founded the company on one simple premise: “building better technology always wins and cutting-corners always loses”. In order to be successful, customer expectations must be delivered without ever compromising on high quality standards."
+text = "We founded the company on one simple premise: <i>building better technology always wins and cutting-corners always loses</i>. In order to be successful, customer expectations must be delivered without ever compromising on high quality standards."
 icon = "team-coding"
 
 [[params.section_mission.features]]
@@ -57,60 +57,55 @@ text = "High quality implies that our code is well tested and bug free, respects
 icon = "developer-desk"
 
 [[params.section_mission.features]]
-title = "Agile Methodology"
-text = "We believe that client feedback is crucial in delivering an impeccable product. We aim to engage our client throughout the product lifecycle. We work in sprints and follow an agile methodology consisting of 5 sequential phases: <li>Project Initiation</li><li>Requirements Gathering and System Design</li><li>Development</li><li>Quality Assurance and Testing</li><li>Deployment and Support</li>"
-icon = "project-timeline"
-
-[[params.section_mission.features]]
 title = "Qualgo"
 text = "<b>Qu</b>ality <b>Algo</b>rithms you can depend on: we take full responsibility in <i>delivering quality applications with every line of code that is committed and deployed</i>."
 icon = "product-launch"
 
 [params.section_services]
 title = "Our Services"
-subtitle = "With great power comes great responsibility"
+subtitle = "End-to-End Software Development Solutions"
 
 [[params.section_services.tiles]]
-title = "App builder"
-icon = "mouse-globe"
-text = "This is some explanatory text that is on two rows"
+title = "Web applications"
+icon = "designing-website"
+text = "Web applications"
 url = "/"
 buttonText = "Free trial"
 
 [[params.section_services.tiles]]
-title = "Cloud integration"
-icon = "laptop-cloud"
-text = "This is some explanatory text that is on two rows"
+title = "Mobile applications"
+icon = "mobile"
+text = "Mobile applications"
 url = "/"
 buttonText = "Get started"
 
 [[params.section_services.tiles]]
-title = "Add-ons & plugins"
-icon = "plug-cloud"
-text = "This is some explanatory text that is on two rows"
+title = "Saas products"
+icon = "data-cloud"
+text = "Saas products"
 url = "/"
 buttonText = "Get started"
 
 [params.section_about_us]
 title = "About us"
-subtitle = "Lorem ipsum sit dolor amet is a dummy text used by typography industry"
+subtitle = "Meet the Qualgo team"
 
 [[params.section_about_us.clients]]
-name = "Irma Walters"
+name = "Razine Bensari"
 quote = "Lorem ipsum dolor sit amet, elit deleniti dissentias quo eu, hinc minim appetere te usu, ea case duis scribentur has. Duo te consequat elaboraret, has quando suavitate at."
-job = "Accountant"
+job = "Backend Engineer"
 img = 1
 
 [[params.section_about_us.clients]]
-name = "John Bradley"
+name = "Marwan Awadi"
 quote = "Lorem ipsum dolor sit amet, elit deleniti dissentias quo eu, hinc minim appetere te usu, ea case duis scribentur has. Duo te consequat elaboraret, has quando suavitate at."
-job = "Financial Analyst"
+job = "Frontend Engineer & UI/UX Designer"
 img = 2
 
 [[params.section_about_us.clients]]
-name = "Gary Blackman"
+name = "Abdulrahim Mansour"
 quote = "Lorem ipsum dolor sit amet, elit deleniti dissentias quo eu, hinc minim appetere te usu, ea case duis scribentur has. Duo te consequat elaboraret, has quando suavitate at."
-job = "HR Manager"
+job = "Full Stack Developer"
 img = 3
 
 [params.section_contact_us]
