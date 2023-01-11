@@ -21,7 +21,7 @@ sizes = [ 400, 600 ]
 
 [params.hero]
 title = "Quality you can depend on"
-subtitle = "At Qualgo we take full responsibility in delivering quality applications with every line of code that is committed and deployed."
+subtitle = "At Qualgo, we accept nothing less than perfection in every line of code committed and deployed. Quality is our top priority and responsibility."
 buttontext = "Our Mission"
 buttonlink = "#section_mission"
 image = "illustrations/icons/startup.svg"
@@ -48,17 +48,17 @@ subtitle = "Quality Algorithms"
 
 [[params.section_mission.features]]
 title = "Building better technology always wins"
-text = "We founded the company on one simple premise: <i>building better technology always wins and cutting-corners always loses</i>. In order to be successful, customer expectations must be delivered without ever compromising on high quality standards."
+text = "We founded this company with a relentless pursuit of innovation and excellence at the forefront of our minds. We know that building the best technology is the key to success, and that cutting corners will only lead to defeat. Meeting and exceeding customer expectations, all while maintaining the highest quality standards, is non-negotiable."
 icon = "team-coding"
 
 [[params.section_mission.features]]
 title = "Delivering on customer expectations"
-text = "High quality implies that our code is well tested and bug free, respects web development standards (W3C Standards), respects web security standards (NIST), is able to scale to serve millions of users, is deployed in a cost-effective manner that aims to maximize customer profits, and ultimately delivers on customer expectations."
+text = "We believe that true quality means utilizing the latest standards in web development, security and testing to deliver bug-free code that is optimized for scalability, performance and cost-efficiency, all while exceeding customer expectations. High standards and reliability are non-negotiable in our pursuit of delivering world-class technology."
 icon = "developer-desk"
 
 [[params.section_mission.features]]
 title = "Qualgo"
-text = "<b>Qu</b>ality <b>Algo</b>rithms you can depend on: we take full responsibility in <i>delivering quality applications with every line of code that is committed and deployed</i>."
+text = "<b>Qu</b>ality <b>Algo</b>rithms you can depend on: <i>we accept nothing less than perfection in every line of code committed and deployed</i>."
 icon = "product-launch"
 
 [params.section_services]
@@ -92,21 +92,27 @@ subtitle = "Meet the Qualgo team"
 
 [[params.section_about_us.clients]]
 name = "Razine Bensari"
-quote = "Lorem ipsum dolor sit amet, elit deleniti dissentias quo eu, hinc minim appetere te usu, ea case duis scribentur has. Duo te consequat elaboraret, has quando suavitate at."
+quote = "Expertise in designing and building robust, scalable systems. Proficient in various programming languages and technologies with a focus on server-side development."
 job = "Backend Engineer"
-img = 1
+img = "razine"
 
 [[params.section_about_us.clients]]
 name = "Marwan Awadi"
-quote = "Lorem ipsum dolor sit amet, elit deleniti dissentias quo eu, hinc minim appetere te usu, ea case duis scribentur has. Duo te consequat elaboraret, has quando suavitate at."
+quote = "Expertise in HTML, CSS, JavaScript, and modern web development frameworks. Proven ability to deliver outstanding, visually stunning and user-friendly web experiences."
 job = "Frontend Engineer & UI/UX Designer"
-img = 2
+img = "marwan"
 
 [[params.section_about_us.clients]]
 name = "Abdulrahim Mansour"
-quote = "Lorem ipsum dolor sit amet, elit deleniti dissentias quo eu, hinc minim appetere te usu, ea case duis scribentur has. Duo te consequat elaboraret, has quando suavitate at."
-job = "Full Stack Developer"
-img = 3
+quote = "Expertise in multiple programming languages and frameworks, experienced in developing and deploying end-to-end web and software applications."
+job = "Full Stack Engineer"
+img = "abdul"
+
+[[params.section_about_us.clients]]
+name = "Ribal Aladeeb"
+quote = "Expertise in creating and deploying sophisticated models for various applications, adept at utilizing big data and deep learning technologies."
+job = "ML Engineer"
+img = "ribal"
 
 [params.section_contact_us]
 title = "Contact us"
